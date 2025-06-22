@@ -6,7 +6,6 @@ import './app/routes/app_routes.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await dotenv.load(fileName: "assets/.env");
-  print('BASE_URL: ${dotenv.env['BASE_URL']}');
 
   final storage = FlutterSecureStorage();
   final token = await storage.read(key: 'token');
