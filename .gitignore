@@ -78,3 +78,7 @@ pubspec.lock
 *.tmp
 *.swp
 *.DS_Store
+
+# Environment file
+.env
+assets/.env

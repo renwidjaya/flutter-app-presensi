@@ -1,5 +1,7 @@
+import 'package:flutter_dotenv/flutter_dotenv.dart';
+
 class ApiBase {
-  static const String baseUrl = "https://api.renwidjaya.my.id";
+  static final String baseUrl = dotenv.env['BASE_URL'] ?? '';
 
   // Auth
   static const String login = "/api/v1-auth/login";
