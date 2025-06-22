@@ -1,0 +1,36 @@
+name: apprendi
+description: "APP PRESENSI RENDI"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  go_router: ^15.1.1
+  flutter_face_api: ^6.1.1
+  flutter_face_core_match: ^6.1.0
+  permission_handler: ^11.0.0
+  http: ^1.4.0
+  flutter_secure_storage: ^9.2.4
+  fl_chart: ^1.0.0
+  path_provider: ^2.0.0
+  open_file: ^3.2.1
+  intl: ^0.20.2
+  geolocator: ^10.0.1
+  geocoding: ^2.1.0
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+
+  uses-material-design: true
