@@ -79,6 +79,8 @@ pubspec.lock
 *.swp
 *.DS_Store
 
-# Environment file
-.env
+# Ignore only the real env file
 assets/.env
+
+# Do NOT ignore example file
+# (so don't include: assets/.env.example)

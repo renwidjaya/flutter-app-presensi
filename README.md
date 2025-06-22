@@ -30,16 +30,19 @@ flutter build apk
 
 ## **🗂️ Struktur Folder**
 
-`lib/
+```
+lib/
+├── constants/
+│   └── api_base.dart
+│
 ├── features/
 │   └── home/
 │       ├── dashboard_screen.dart
 │       └── report_screen.dart
+│
 ├── services/
 │   └── local_storage_service.dart
-├── constants/
-│   └── api_base.dart`
-
+```
 
 ## **👤 Author**
 
